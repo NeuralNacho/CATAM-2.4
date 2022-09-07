@@ -1,0 +1,23 @@
+Contains writing from the files which I dont want included in the write up
+
+From question_2.py:
+a, b = np.polyfit(data_set[:-1], data_set[1:], 1)
+print (a, b)  # this confirms the answers above are correct
+
+From question_6.py:
+a, b, c = np.polyfit(data_set[:-1], data_set[1:], 2)
+print (a, b, c)  # this confirms the answers above are correct
+
+From quesiton_9.py:
+a, b, c, d = np.polyfit(data_set[:-1], data_set[1:], 3)
+print (a, b, c, d)  # this confirms the answers above are correct
+
+From quesiton_10.py:
+# Expect 0.5, 1/12 for uniform
+# Expect 2, 4 for expontial
+
+From question_11.py:
+plt.figure(4)
+plt.plot(y_list)
+plt.xlabel('n')
+plt.ylabel('$y_{n}$')
